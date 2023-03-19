@@ -1,0 +1,57 @@
+.nav-row{
+    align-items: center;
+    color: white;
+    background: linear-gradient(90deg, #44aba6, #38a2a4, #2f98a1, #288f9e, #248599, #237c94, #24728e, #276987);
+}
+.search{
+    height: 90px;
+    padding: 25px;
+}
+.btn-1{
+    height: 90px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-1 button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.btn-1 button:hover{
+    color: rgb(191, 191, 191);
+}
+.content{
+    height: 100vh;
+    overflow: auto;
+    margin-top: 20px;
+}
+.box-createpost{
+    height: 97vh;
+    margin-top: 25px;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    padding: 20px;
+}
+.post-content{
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    overflow: initial;
+}
+.title{
+    height: 50px;
+}
+.post-user{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+.post-btn{
+    border: none;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
